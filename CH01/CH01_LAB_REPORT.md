@@ -6,29 +6,59 @@
 - **Course:** COSC 2436
 
 ## Algorithm Summary
-- **How it works:** [Compares linear search time to bianary shearch time in Big O mesurmanets.
-- Big O compares the amount of calls insdead of seconds to properly mesure algorthoms negating computer specs]
-- **Time complexity:** [linear shearch is O(n) however binary search is O(log n)]
-- **When to use it:** [Linear seach is better for shoter listes. Binary sheach is beter in longer listest.]
+- **How it works:** [Compares linear search time to binary search time in Big O measurements.
+- Big O compares the amount of calls instead of seconds to properly measure algorithms negating computer specs]
+- **Time complexity:** [linear search is O(n) however binary search is O(log n)]
+- **When to use it:** [Linear search is better for shorter lists. Binary search is better in longer listest.]
 
 ## Test Results
 [Paste your program output, measurement table, or sample run.
  Use a Markdown table where appropriate.]
 
-| Input          | Result | Notes |
-|----------------|--------|-------|
-|                |        |       |
+| Input                                | Result                                  | Notes |
+|----------------                      |--------                                 |-------|
+|     a sorted list of 128 names       |   Searching for: 75                     |       |
+                                           Linear search time: 0.00000405 seconds
+                                           Binary search time: 0.00000286 seconds
+                                           Linear search result: 74
+                                           Binary search result: 74
+                                           Binary search is 1.42x faster
+
+                                           Searching for: 10
+                                           Linear search time: 0.00000167 seconds
+                                           Binary search time: 0.00000167 seconds
+                                           Linear search result: 9
+                                           Binary search result: 9
+                                           Binary search is 1.00x faster
+
+                                           Searching for: 90
+                                           Linear search time: 0.00000286 seconds
+                                           Binary search time: 0.00000167 seconds
+                                           Linear search result: 89
+                                           Binary search result: 89
+                                           Binary search is 1.71x faster
+
+                                           Searching for: 200
+                                           Linear search time: 0.00000381 seconds
+                                           Binary search time: 0.00000191 seconds
+                                           Linear search result: None
+                                           Binary search result: None
+                                           Binary search is 2.00x faster
+
+                                           Lab Challenge Answer:
+                                           Maximum steps for binary search in 128 items:
+                                           log2(128) = 7 steps maximum
 
 ## Reflection Questions
 
-1. **[What is the amount of operations Bianary search would make seaching through the whole list]**
+1. **[What is the amount of operations Binary search would make searching through the whole list]**
    [Binary has a max of 7 operations to this 128 item list.]
 
-2. **[What is the amount of operations Liner search would make seaching through the whole list]**
-   [Liner shearch has a max of 128 on this 128 item list to transvers.]
+2. **[What is the amount of operations Liner search would make searching through the whole list]**
+   [Liner search has a max of 128 on this 128 item list to transvers.]
 
-3. **[Why are the time complexatys so diffrent]**
+3. **[Why are the time complexities so different?]**
    [Your answer in 2-3 sentences.]
 
 ## Challenges Encountered
-[Not having acces or the abilty to learn through the first lab was problerly the bigest chalnge of this lab. I wish I had acess to it to have the abilty to learn how it runs earlyer.]
+[Not having access or the ability to learn through the first lab was probably the biggest challenge of this lab. I wish I had access to it to have the ability to learn how it runs earlyer.]
