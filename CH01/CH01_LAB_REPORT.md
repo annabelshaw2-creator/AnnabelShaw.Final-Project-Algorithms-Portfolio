@@ -22,14 +22,13 @@
 ## Reflection Questions
 
 1. **[What is the amount of operations Bianary search would make seaching through the whole list]**
-   [Your answer in 2-3 sentences.]
+   [Binary has a max of 7 operations to this 128 item list.]
 
 2. **[What is the amount of operations Liner search would make seaching through the whole list]**
-   [Your answer in 2-3 sentences.]
+   [Liner shearch has a max of 128 on this 128 item list to transvers.]
 
-3. **[Your third question]**
+3. **[Why are the time complexatys so diffrent]**
    [Your answer in 2-3 sentences.]
 
 ## Challenges Encountered
-[Brief paragraph describing what was difficult, what you tried,
- and how you resolved it.]
+[Not having acces or the abilty to learn through the first lab was problerly the bigest chalnge of this lab. I wish I had acess to it to have the abilty to learn how it runs earlyer.]
