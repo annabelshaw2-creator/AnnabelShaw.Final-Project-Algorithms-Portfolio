@@ -5,21 +5,21 @@
 - **Date:** [2/6/26]
 
 ## Algorithm Summary
-sort.py is the modes used in main.py for diffrent outputs from the vales in cities.json. main.py uses sort.py to find the smallest cities by
-population, lagrest cities by population, then usuing this to caluclate array vs linked list in proscesing memory and time, also then coparing
-the made program to the built in pyton program.
+sort.py is the modes used in main.py for different outputs from the values in cities.json. main.py uses sort.py to find the smallest cities by
+population, largest cities by population, then using this to calculate array vs linked list in processing memory and time, also then comparing
+the made program to the built in python program.
 ### Selection Sort
 - **Time Complexity:** O(n²)
 - **Space Complexity:** O(1)
-- **How it works:** [goes through the entire arayy searching for curent smallest value untill all items are sorted in order.]
+- **How it works:** [goes through the entire array searching for the current smallest value until all items are sorted in order.]
 
 ## Array vs Linked List Analysis
 
 | Operation | Array | Linked List | Why? |
 |-----------|-------|-------------|------|
-| Read      | O(1)  | O(n)        |   you have to start from the begining of a list with an array you can quicly go to any point    |
+| Read      | O(1)  | O(n)        |   you have to start from the beginning of a list with an array you can quickly go to any point    |
 | Insert    | O(n)  | O(1)        |  Arrays size can nor be changed and lists can be added to easily    |
-| Delete    | O(n)  | O(1)        |    it is more complictated to remove a value from and arry then a list  |
+| Delete    | O(n)  | O(1)        |    it is more complicated to remove a value from and array then a list  |
 
 ## Test Results
 [Starting sandbox...
@@ -98,9 +98,10 @@ PART 3: BIG O SUMMARY
 ## Reflection Questions
 
 1. Why is selection sort O(n²)?
-If the order of the list is i revers of what is wanted it will take the computer the entire list length for each item of the
-list to circel through and sort properly
-3. When would you choose a linked list over an array?
-    for lists that are constantly geting added too and removed from
-4. Why does Python use arrays (lists) as the default sequence type?
-    Quicker acsess to data points
+If the order of the list is in reverse of what is wanted it will take the computer the entire list length for each item of the
+list to circle through and sort properly.
+2. When would you choose a linked list over an array?
+    for lists that are constantly getting added too and removed from.
+3. Why does Python use arrays (lists) as the default sequence type?
+    Quicker access to data points.
+
