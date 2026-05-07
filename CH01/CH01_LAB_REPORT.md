@@ -15,39 +15,40 @@
 [Paste your program output, measurement table, or sample run.
  Use a Markdown table where appropriate.]
 
-| Input                                | Result                                   | Notes |
-|----------------                      |--------                                  |-------|
-|     a sorted list of 128 names       |   Searching for: 75                      |       |
-                                       |   Linear search time: 0.00000405 seconds |
-                                       |    Binary search time: 0.00000286 seconds|
-                                       |    Linear search result: 74              |
-                                       |    Binary search result: 74              |
-                                       |    Binary search is 1.42x faster         |
-                                       |                                          |
-                                       |   Searching for: 10                      |
-                                       |    Linear search time: 0.00000167 seconds|
-                                       |    Binary search time: 0.00000167 seconds|
-                                       |    Linear search result: 9               |
-                                       |    Binary search result: 9               |
-                                       |    Binary search is 1.00x faster         |
-                                       |                                          |
-                                       |    Searching for: 90                     |
-                                       |    Linear search time: 0.00000286 seconds|
-                                       |    Binary search time: 0.00000167 seconds|
-                                       |    Linear search result: 89              |
-                                       |    Binary search result: 89              |
-                                       |   Binary search is 1.71x faster          |
-                                       |                                          |
-                                       |    Searching for: 200                    |
-                                       |    Linear search time: 0.00000381 seconds|
-                                       |    Binary search time: 0.00000191 seconds|
-                                       |    Linear search result: None            |
-                                       |    Binary search result: None            |
-                                       |    Binary search is 2.00x faster         |
-                                       |                                          |
-                                       |    Lab Challenge Answer:                 |
-                                       |    Maximum steps for binary search in 128 items: |
-                                       |    log2(128) = 7 steps maximum |
+| Input                                 | Result                                           | Notes |
+|----------------                       |--------                                          |-------|
+|     a sorted list of 128 names        |   Searching for: 75                              |       |
+|                                       |   Linear search time: 0.00000405 seconds         |       |
+|                                       |    Binary search time: 0.00000286 seconds        |       |
+|                                       |    Linear search result: 74                      |       |
+|                                       |    Binary search result: 74                      |       |
+|                                       |    Binary search is 1.42x faster                 |       |
+|                                       |                                                  |       |
+|                                       |   Searching for: 10                              |       |
+|                                       |    Linear search time: 0.00000167 seconds        |       |
+|                                       |    Binary search time: 0.00000167 seconds        |       |
+|                                       |    Linear search result: 9                       |       |
+|                                       |    Binary search result: 9                       |       |
+|                                       |    Binary search is 1.00x faster                 |       |
+|                                       |                                                  |       |
+|                                       |    Searching for: 90                             |       |
+|                                       |    Linear search time: 0.00000286 seconds        |       |
+|                                       |    Binary search time: 0.00000167 seconds        |       |
+|                                       |    Linear search result: 89                      |       |
+|                                       |    Binary search result: 89                      |       |
+|                                       |   Binary search is 1.71x faster                  |       |
+|                                       |                                                  |       |
+|                                       |    Searching for: 200                            |       |
+|                                       |    Linear search time: 0.00000381 seconds        |       |
+|                                       |    Binary search time: 0.00000191 seconds        |       |
+|                                       |    Linear search result: None                    |       |
+|                                       |    Binary search result: None                    |       |
+|                                       |    Binary search is 2.00x faster                 |       |
+|                                       |                                                  |       |
+|                                       |    Lab Challenge Answer:                         |       |
+|                                       |    Maximum steps for binary search in 128 items: |       |
+|                                       |    log2(128) = 7 steps maximum                   |       |
+|---------------------------------------|--------------------------------------------------|-------|
 
 ## Reflection Questions
 
