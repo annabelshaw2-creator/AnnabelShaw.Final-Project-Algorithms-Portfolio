@@ -48,7 +48,6 @@
 |                                       |    Lab Challenge Answer:                         |       |
 |                                       |    Maximum steps for binary search in 128 items: |       |
 |                                       |    log2(128) = 7 steps maximum                   |       |
-|---------------------------------------|--------------------------------------------------|-------|
 
 ## Reflection Questions
 
