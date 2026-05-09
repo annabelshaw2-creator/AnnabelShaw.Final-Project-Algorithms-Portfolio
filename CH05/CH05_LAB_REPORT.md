@@ -15,9 +15,9 @@
 
 
 ## Reflection Questions
-1. What are the advantages of using a hash table?
-    Fast and efficient adding, removing, and locating elements.
-2. How does the hash function affect the performance of a hash table?
-    A poor function leads to high collisions and poor function load.
-3. What are other collision resolution techniques besides linear probing?
-    Changing the size of the table.
+1. **What are the advantages of using a hash table?**
+    [Fast and efficient adding, removing, and locating elements.]
+2. **How does the hash function affect the performance of a hash table?**
+   [ A poor function leads to high collisions and poor function load.]
+3. **What are other collision resolution techniques besides linear probing?**
+   [ Changing the size of the table.]
