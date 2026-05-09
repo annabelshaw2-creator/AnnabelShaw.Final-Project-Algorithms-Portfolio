@@ -33,15 +33,15 @@ p2=2    p3=5
 
 ## Reflection Questions
 
-1. What happens if the array is already sorted and you always pick the first element as pivot?
-   It will be the worst case on time to run, having to search through each individual element.
+1. **What happens if the array is already sorted and you always pick the first element as pivot?**
+   [It will be the worst case on time to run, having to search through each individual element.]
 
-2. How could you improve pivot selection to avoid worst-case performance?
-    Random element or median element, so it does not pull the first element and has a better chance of being the best outcome.
+2. **How could you improve pivot selection to avoid worst-case performance?**
+    [Random element or median element, so it does not pull the first element and has a better chance of being the best outcome.]
 
-3. How does quicksort compare to other sorting algorithms you know (e.g., bubble sort, merge sort)?
-   Quicksort is more consistently the best case scenario than other well known algorithms.
+3. **How does quicksort compare to other sorting algorithms you know (e.g., bubble sort, merge sort)?**
+   [Quicksort is more consistently the best case scenario than other well known algorithms.]
 
-4. Why do we use `array[1:]` instead of `array` when building the less and greater lists?
-    Array[1:] makes the reversion end, by counting down as it calls. array will result in an endless loop.
+4. **Why do we use `array[1:]` instead of `array` when building the less and greater lists?**
+    [Array[1:] makes the reversion end, by counting down as it calls. array will result in an endless loop.]
 
