@@ -32,8 +32,10 @@ Given nodes A, B, C, D and edges A-B(1), A-C(4), B-C(2), B-D(6), C-D(3), trace D
 |2	B (1)	|		B|-|0|2|6|A,B|		
 |3	C (3)	|		C|-|-|0|3|A,B,C|		
 |4	D (6)	|		D|-|-|-|0|A,B,C,D|	
-|  |  |   |   |   |   |   |
+
+
 Shortest path A to D: [A-B(1),B-C(2),C-D(3)]
+
 Total cost: [6]
 
 ## Reflection Questions
