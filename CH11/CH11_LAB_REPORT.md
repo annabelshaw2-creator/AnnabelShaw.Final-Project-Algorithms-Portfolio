@@ -16,7 +16,22 @@
 
 | Input          | Result | Notes |
 |----------------|--------|-------|
-|                |        |       |
+|       items = [
+    ("GUITAR", 1, 1500),
+    ("STEREO", 4, 3000),
+    ("LAPTOP", 3, 2000),
+    ("iPHONE", 1, 2000),
+    ("BOOK", 2, 100),
+    ("GOLD BAR", 1, 30000),
+]
+
+capacity = 6         |                           1           2           3           4           5           6
+GUITAR          $1500(G)    $1500(G)    $1500(G)    $1500(G)    $1500(G)    $1500(G)
+STEREO          $1500(G)    $1500(G)    $1500(G)    $3000(S)   $4500(GS)   $4500(GS)
+LAPTOP          $1500(G)    $1500(G)    $2000(L)   $3500(GL)   $4500(GS)   $4500(GS)
+iPHONE          $2000(i)   $3500(Gi)   $3500(Gi)   $4000(Li)  $5500(GLi)  $6500(GSi)
+BOOK            $2000(i)   $3500(Gi)   $3500(Gi)   $4000(Li)  $5500(GLi)  $6500(GSi)
+GOLD BAR       $30000(G)  $32000(iG) $33500(GiG) $33500(GiG) $34000(LiG)$35500(GLiG)    |       |
 
 ## Reflection Questions
 
