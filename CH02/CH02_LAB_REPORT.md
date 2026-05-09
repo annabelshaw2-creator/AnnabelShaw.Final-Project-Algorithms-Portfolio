@@ -97,11 +97,11 @@ PART 3: BIG O SUMMARY
 
 ## Reflection Questions
 
-**1. Why is selection sort O(n²)?**
+1. **Why is selection sort O(n²)?**
  If the order of the list is in reverse of what is wanted it will take the computer the entire list length for each item of the list to circle through and sort properly.
-**2. When would you choose a linked list over an array?**
+2. **When would you choose a linked list over an array?**
     for lists that are constantly getting added too and removed from.
-**3. Why does Python use arrays (lists) as the default sequence type?**
+3. **Why does Python use arrays (lists) as the default sequence type?**
 
     Quicker access to data points.
 
