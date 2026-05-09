@@ -26,7 +26,8 @@ Date: [4/12/26]
 Given nodes A, B, C, D and edges A-B(1), A-C(4), B-C(2), B-D(6), C-D(3), trace Dijkstra's from A to D:
 
 |Iteration|	Current Node|	costs[A]|	costs[B]	|costs[C]	|costs[D]|	processed|
-|Init	—					
+|----------|-------------|-----------|---------------|-----------|--------|---------|
+|Init	— |					
 |1	A (0)	|		A| 0|1|4|6|	A|	
 |2	B (1)	|		B|-|0|2|6|A,B|		
 |3	C (3)	|		C|-|-|0|3|A,B,C|		
