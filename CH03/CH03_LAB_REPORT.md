@@ -11,7 +11,7 @@
 2. **Recursive Case:** [the looping case]
 
 ### The Call Stack
-[The call stack is a stack that adds to the top of the pile then calling from the top of the pile befor returning the later ellemnts.]
+[The call stack is a stack that adds to the top of the pile then calling from the top of the pile before returning the later ellemnts.]
 
 ## Function Analysis
 
@@ -26,11 +26,13 @@
 ## Reflection Questions
 
 1. What happens if you forget the base case?
-    Infident loop with stack overflow error
+    Infident loop with stack overflow error.
 2. Why is the naive Fibonacci implementation inefficient?
-    Fibonacci is an infadent caluclation of numbers and will overflow the memroi in a reccersive loop
+    Fibonacci is an infinite calculation of numbers and will overflow the memory in a recursive loop.
 3. Draw the call stack for fact(4).
             (24)
     (24)*1
     (12)*2...
     4*3...
+
+
