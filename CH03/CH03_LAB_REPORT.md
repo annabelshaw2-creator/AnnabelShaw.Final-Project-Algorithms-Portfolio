@@ -25,11 +25,11 @@
 
 ## Reflection Questions
 
-**1. What happens if you forget the base case?**
+1. **What happens if you forget the base case?**
     Infident loop with stack overflow error.
-**2. Why is the naive Fibonacci implementation inefficient?**
+2. **Why is the naive Fibonacci implementation inefficient?**
     Fibonacci is an infinite calculation of numbers and will overflow the memory in a recursive loop.
-**3. Draw the call stack for fact(4).**
+3. **Draw the call stack for fact(4).**
             (24)
     (24)*1
     (12)*2...
