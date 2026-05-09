@@ -5,18 +5,19 @@
 - **Date:** [3/7/2026]
 
 ## Key Concepts
-[To find travle point betwein citys using BFS]
+[To find travel point between cities using BFS]
 
 ## What I Learned
-[how to complie a que though python deque system]
+[How to compile a que though python deque system]
 
 ## Challenges
-[Not having coade examples prior to the lab and not having a lab walkthough webex. Book.]
+[Not having code examples prior to the lab and not having a lab walkthrough webex. Book.]
 
 ## Reflection Questions
 1. Why does BFS use a queue instead of a stack?
-    To have a first in first out system to have a prpoer prioty search.
+    To have a first in first out system to have a proper priority search.
 2. What's the difference between BFS shortest path and actual shortest distance?
-    The frist found path and the shortes didtences
+    The first found path and the shortest distances
 3. When would you use BFS vs DFS?
-    fastes found path and sortest distance
+    Fastest found path and shortest distance
+
