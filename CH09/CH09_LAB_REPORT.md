@@ -7,8 +7,8 @@ Date: [4/12/26]
 
 ## Algorithm Analysis: Dijkstra's Algorithm
 
-- What type of graph does this program build? [multidirectional, weighted]
-- Why must all edge weights be non-negative for Dijkstra's to work?' [Dijkstra only works if you don't have to restore a node ladder so it can not consider negative numbers.]
+- **What type of graph does this program build?** [multidirectional, weighted]
+- **Why must all edge weights be non-negative for Dijkstra's to work?'** [Dijkstra only works if you don't have to restore a node ladder so it can not consider negative numbers.]
 - Time Complexity (with simple array scan for min-node): O(n)
 - Time Complexity (with a min-heap/priority queue): O(log n)
 
