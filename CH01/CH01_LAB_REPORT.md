@@ -1,4 +1,4 @@
-# Chapter X: [Introduction to Algorithms] — Lab Report
+# Chapter 1: [Introduction to Algorithms] — Lab Report
 
 ## Student Information
 - **Name:** [Annabel Shaw]
