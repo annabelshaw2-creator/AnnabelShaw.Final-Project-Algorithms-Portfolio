@@ -22,15 +22,15 @@ and all elements in the right subtree are greater.
 |Postorder|	Left, Right, Root	|Deleting a tree|
 
 ## Reflection Questions
-1) Why does inorder traversal give sorted output?
+1) **Why does inorder traversal give sorted output?**
 
-Inorder traversal visits nodes in ascending order for a binary search tree, as it processes the left subtree, then the node, and finally the right subtree.
+[Inorder traversal visits nodes in ascending order for a binary search tree, as it processes the left subtree, then the node, and finally the right subtree.]
 
-2) When would a BST become unbalanced?
+2) **When would a BST become unbalanced?**
 
-A BST becomes unbalanced when nodes are inserted in a sorted order, leading to a linear structure similar to a linked list.
+[A BST becomes unbalanced when nodes are inserted in a sorted order, leading to a linear structure similar to a linked list.]
 
-3) What's the difference between BFS and DFS for trees?
+3) **What's the difference between BFS and DFS for trees?**
     
-BFS explores nodes level by level using a queue, while DFS explores as deep as possible along each branch before backtracking, typically using recursion or a stack.
+[BFS explores nodes level by level using a queue, while DFS explores as deep as possible along each branch before backtracking, typically using recursion or a stack.]
 
